@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package recommendation;
+
+service Recommender {
+  rpc GetRecommendation(Request) returns (Response);
+}
+
+message Request {
+  string depart = 1;
+  string arrivee = 2;
+}
+
+message Response {
+  string prix = 1;
+  string duree = 2;
+  string moyen_transport = 3;
+}
