@@ -4,8 +4,7 @@ Ce projet implémente un service gRPC simple en Python qui recommande un prix, u
 
 ## Structure du projet
 
-```
-
+```text
 grpc\_recommender/
 ├── client.py          # Client gRPC qui interroge le service
 ├── server.py          # Serveur gRPC avec une implémentation simple
@@ -13,7 +12,7 @@ grpc\_recommender/
 ├── service\_pb2.py     # Fichier généré automatiquement
 ├── service\_pb2\_grpc.py# Fichier généré automatiquement
 
-````
+```
 
 ## Installation
 
@@ -22,7 +21,7 @@ grpc\_recommender/
    ```bash
    python -m venv env
    source env/bin/activate  # Sur Windows : env\Scripts\activate
-````
+```
 
 3. **Installer les dépendances** :
 
