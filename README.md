@@ -18,10 +18,10 @@ grpc\_recommender/
 
 1. **Cloner le projet** (si besoin)  
 2. **Créer un environnement virtuel** (optionnel mais recommandé) :
-   ```bash
-   python -m venv env
-   source env/bin/activate  # Sur Windows : env\Scripts\activate
-```
+    ```bash
+    python -m venv env
+    source env/bin/activate  # Sur Windows : env\Scripts\activate
+    ```
 
 3. **Installer les dépendances** :
 
@@ -54,7 +54,7 @@ Tu verras :
 Serveur gRPC démarré sur le port 50051
 ```
 
-## 📡 Lancer le client
+## Lancer le client
 
 Dans un autre terminal :
 
